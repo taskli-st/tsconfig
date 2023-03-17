@@ -1,0 +1,19 @@
+{
+	"name": "@taskli-st/tsconfig",
+	"version": "1.0.0",
+	"description": "TypeScript configuration for our projects",
+	"license": "MIT",
+	"repository": "taskli-st/tsconfig",
+	"main": "tsconfig.json",
+    "scripts": {
+        "postinstall": "./post-install.js"
+    },
+	"engines": {
+		"node": ">=14"
+	},
+	"files": [
+		"tsconfig.json",
+		"tsconfig-client.json",
+        "post-install.js"
+	]
+}
