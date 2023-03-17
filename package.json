@@ -6,7 +6,7 @@
     "repository": "taskli-st/tsconfig",
     "main": "tsconfig.json",
     "scripts": {
-        "postinstall": "cd $INIT_CWD && node ./node_modules/@taskli-st/tsconfig/post-install.js"
+        "postinstall": "node ./post-install.js"
     },
     "engines": {
         "node": ">=14"
