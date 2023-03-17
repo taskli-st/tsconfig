@@ -6,7 +6,7 @@
 	"repository": "taskli-st/tsconfig",
 	"main": "tsconfig.json",
     "scripts": {
-        "postinstall": "./post-install.js"
+        "postinstall": "node ./post-install.js"
     },
 	"engines": {
 		"node": ">=14"
