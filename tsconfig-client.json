@@ -1,3 +1,8 @@
 {
-	"extends": "@taskli-st/tsconfig"
+	"extends": "@taskli-st/tsconfig",
+	"include": ["src/**/*"],
+	"exclude": [
+	  "node_modules",
+	  "dist"
+	]
 }
